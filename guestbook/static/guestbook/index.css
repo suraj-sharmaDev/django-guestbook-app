@@ -1,0 +1,19 @@
+.jumbo{
+	position: relative;
+	left: 150px;
+	top: 100px;
+	background-color: #C2FEFF;
+	width: 50%;
+	height: 100px;
+	padding: 100px 100px 50px 100px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+.jumbo > p{
+	font-size: 16px;
+}
+.userBox{
+	margin-top: 150px;
+	margin-left: 150px;
+}

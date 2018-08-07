@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'guestbook/index.css' %}">
+</head>
+<body>
+	<a href="{% url 'sign' %}">Sign Guestbook</a>
+	<div class="jumbo">
+		Welcome to the guestbook club
+		<p>This is a guestbook page, Share your comments</p>
+	</div>
+	<div class="userBox">
+		{% for c in comment %}
+		<p class="detail">Name: {{c.name}}</p>
+		<p class="detail">Comment: {{c.comment}}</p></br>
+		{% endfor %}
+	</div>
+</body>
+</html>

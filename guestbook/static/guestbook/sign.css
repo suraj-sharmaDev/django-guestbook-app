@@ -1,0 +1,20 @@
+.jumbo{
+	position: relative;
+	left: 150px;
+	top: 50px;
+	background-color: #C2FEFF;
+	width: 50%;
+	height: 100px;
+	padding: 100px 100px 50px 100px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+form{
+	margin-top: 100px;
+	border: 1px solid green;
+	border-radius: 10px;
+	padding:40px;
+	width:300px;
+	margin-left: 25%;
+}
